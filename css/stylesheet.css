@@ -1,0 +1,79 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+section{
+    border: solid;
+    
+}
+section.jumbotron {
+   
+   min-height: 30vh;
+   
+}
+#headshot{
+    max-height: 40vh;
+}
+    
+section.resume {
+   display: flex;
+   height: 18vh;
+   align-items: center;
+   
+}
+section.projects-carousel{
+ max-height: 40vh;
+}
+.download-resume {
+    width: 100%;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 25px;
+    color: black;
+    display: block;
+}
+
+.map iframe{
+    max-width: 100%;
+}
+.map p {
+    
+   
+    max-width: 100%;
+}
+.site-map{
+    list-style-type: none;
+    font-size: 75%;
+}
+
+.site-map a {
+    text-decoration: none;
+    padding: 0px 2%;
+    
+}
+
+.dropdown-toggle{
+    background-color: white;
+    border: none;
+}
+.dropup {
+    display: inline;
+    
+}
+.contact-me{
+    font-size: 75%;
+}
+.social-links i{
+    text-align: center;
+    padding-right: 10%;
+}
+
+section.weather{
+   width: 90%;
+   max-height: 150px;
+   overflow: auto;
+}
+.bi-arrow-left-circle{
+    
+}
