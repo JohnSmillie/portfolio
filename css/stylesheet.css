@@ -1,19 +1,23 @@
+
+
 body{
-    padding: 3px;
+    
+    padding: 6px;
     margin: 0px;
     font-family: 'Ubuntu Mono', monospace;
     box-sizing: border-box;
     font-size: 16px;
     background-image: url("../img/5573.jpg");
-    /*background-image: linear-gradient(270deg, rgba(26, 11, 11, 0.9), rgb(170, 151, 151));
-*/
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
 }
 h1{
     font-weight: bold;
-    font-size: 2.75rem;
+    font-size: 2em;
+}
+h2 {
+    margin-bottom: 20px;
 }
 button{
     background-color: rgba(0,0,0,0);
@@ -22,29 +26,37 @@ button{
     background-color: rgba(255,255,255, .3);
     
 }
-header{
-    margin-bottom: 2px;
-    background-color: rgba(255,255,255, .8);
+header, footer{
+    
+    background-color: rgba(255,255,255, .7);
 }
 .navbar-brand{
     font-weight: bolder;
 }
-footer {
-    background-color: rgba(255,255,255, .3);
-}  
+ 
 section.jumbotron {
     background-color: rgba(255,255,255, .3);
     min-height: 30vh;
-    margin-bottom: 2px
+   
+    color: whitesmoke
 }
 #headshot{
     max-width: 335px;
     border-radius: 15%; 
+    border: solid white;
+    padding: 0;
 }
 section.resume {
    display: flex;
-   height: 15vh;
-   align-items: center;
+   
+  align-items: center;
+
+}
+section.projects1{
+    color: white;
+}
+section.projects2, section.about-me{
+    color: white;
 }
 
 .download-resume {
@@ -53,26 +65,33 @@ section.resume {
     font-weight: 700;
     border-radius: 25px;
     color: black;
-   display: block;
-    background-color: silver;
+    display: block;
+    background-color: rgba(255,255,255, .7);
+   
 }
-.carousel-item img {
-   max-width: 400px;
-   max-height: 400px;
+
+.carousel-item img, .projects2 img {
+   max-width: 335px;
+   max-height: 335px;
    margin: auto;
+   border-radius: 15%;
+   border: solid white;
+   margin-bottom: 10px;
 }
+ 
 
 section.about-me button {
     border: none;
     background-color:rgba(0,0,0,0);
-    
+    color: white;
     
 }
 .page-info button {
-    
+    color: white;
 }
 .map iframe{
     max-width: 100%;
+   
 }
 .map p {
     max-width: 100%;
@@ -103,7 +122,11 @@ section.about-me button {
 }
 .grading {
     border: none;
+    padding: 0;
    
+}
+.navbar-toggler{
+    border: solid 2.5px;
 }
 
 
