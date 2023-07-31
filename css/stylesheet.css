@@ -14,7 +14,8 @@ body{
 }
 h1{
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2.5em;
+    text-shadow:  2px 0px rgb(0, 0, 0);
 }
 h2 {
     margin-bottom: 20px;
@@ -22,12 +23,12 @@ h2 {
 button{
     background-color: rgba(0,0,0,0);
 }
-.projects1, .projects2, .about-me, .page-info {
-    background-color: rgba(255,255,255, .3);
+.projects1, .projects2, .about-me, .page-info{
+    background-color: rgba(255,255,255, .1);
     
 }
+
 header, footer{
-    
     background-color: rgba(255,255,255, .7);
 }
 .navbar-brand{
@@ -35,20 +36,19 @@ header, footer{
 }
  
 section.jumbotron {
-    background-color: rgba(255,255,255, .3);
+    background-color: rgba(255, 255, 255, .1);
     min-height: 30vh;
    
     color: whitesmoke
 }
 #headshot{
-    max-width: 335px;
-    border-radius: 15%; 
-    border: solid white;
+    max-width: 300px;
+    border-radius: 10%; 
+    border: solid white .5px;
     padding: 0;
 }
 section.resume {
    display: flex;
-   
   align-items: center;
 
 }
@@ -57,6 +57,13 @@ section.projects1{
 }
 section.projects2, section.about-me{
     color: white;
+}
+.projects1 h5, .projects1 p {
+    color: black;
+    background-color: rgba(255,255,255, .9);
+    width: 50%;
+    margin: auto;
+
 }
 
 .download-resume {
@@ -71,11 +78,11 @@ section.projects2, section.about-me{
 }
 
 .carousel-item img, .projects2 img {
-   max-width: 335px;
-   max-height: 335px;
+   max-width: 300px;
+   max-height: 300px;
    margin: auto;
-   border-radius: 15%;
-   border: solid white;
+   border-radius: 10%;
+   border: solid white .5px;
    margin-bottom: 10px;
 }
  
