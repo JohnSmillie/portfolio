@@ -38,7 +38,6 @@ header, footer{
 section.jumbotron {
     background-color: rgba(255, 255, 255, .1);
     min-height: 30vh;
-   
     color: whitesmoke
 }
 #headshot{
@@ -49,8 +48,7 @@ section.jumbotron {
 }
 section.resume {
    display: flex;
-  align-items: center;
-
+   align-items: center;
 }
 section.projects1{
     color: white;
