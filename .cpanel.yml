@@ -3,7 +3,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/johnsmi1/public_html/
-   - bin/cp -R * $DEPLOYPATH
+    -bin/cp -R * $DEPLOYPATH
    ## - /bin/cp -R .vscode $DEPLOYPATH
     #- /bin/cp -R css $DEPLOYPATH
    # - /bin/cp -R img $DEPLOYPATH
